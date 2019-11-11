@@ -20,5 +20,14 @@ int main()
 		cout << "Introduce el valor " << i << " del segundo vector: ";
 		cin >> vector2[i];
 	}
-
+	//calculamos la suma
+	for (i = 0; i < 3; i++)
+	{
+		vectorsuma[i] = vector1[i] + vector2[i];
+	}
+	//mostramos el resultado
+	for (i = 0; i < 3; i++)
+	{
+		cout << vectorsuma[i] << "  ";
+	}
 }
